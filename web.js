@@ -18,5 +18,5 @@ app.listen(port, function() {
   console.log("Listening on " + port);
   var file=new Buffer(100);
   file=fs.readFileSync("index.html");
-  console.log(file.toString());
+  //console.log(file.toString());
 });
